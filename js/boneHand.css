@@ -1,0 +1,24 @@
+.bone-hand-canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  pointer-events: none;
+  visibility: hidden;
+}
+.intro.hand-3d .front-cover,
+.intro.hand-3d .closed-book {
+  animation: none;
+  transition: none;
+}
+.intro.hand-3d .closed-book { filter: none; }
+.intro.opening .click-hint { animation: none; opacity: 0; }
+html, body { overflow-x:clip; }
+.book-model-canvas { position:absolute; left:-30%; top:-30%; width:160%; height:160%; z-index:8; pointer-events:none; }
+.book-shell.blender-ready > .corner,
+.book-shell.blender-ready > .binding,
+.intro.blender-ready .front-cover > .corner { visibility:hidden; }
+@media (prefers-reduced-motion: reduce) {
+  .intro.opening .front-cover { animation: coverOpen .2s ease forwards; }
+  .intro.opening .closed-book { animation: none; }
+  .intro { transition-duration: .15s; }
+}

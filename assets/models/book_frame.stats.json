@@ -1,0 +1,8 @@
+{
+  "triangles": 25952,
+  "variants": [
+    "OpenBook",
+    "ClosedBook"
+  ],
+  "coverHinge": "BlenderCoverHinge"
+}

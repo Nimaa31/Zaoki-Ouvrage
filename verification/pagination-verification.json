@@ -1,0 +1,200 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "pages": 40,
+    "contentPreserved": true,
+    "overflows": [],
+    "layout": {
+      "book": {
+        "x": 161.3772735595703,
+        "y": 162.7244110107422,
+        "width": 1117.245361328125,
+        "height": 569.2427368164062,
+        "top": 162.7244110107422,
+        "right": 1278.6226348876953,
+        "bottom": 731.9671478271484,
+        "left": 161.3772735595703
+      },
+      "controls": {
+        "x": 165,
+        "y": 760.5,
+        "width": 1110,
+        "height": 55,
+        "top": 760.5,
+        "right": 1275,
+        "bottom": 815.5,
+        "left": 165
+      },
+      "horizontalOverflow": false
+    },
+    "errors": []
+  },
+  {
+    "viewport": {
+      "width": 589,
+      "height": 884
+    },
+    "pages": 42,
+    "contentPreserved": true,
+    "overflows": [],
+    "layout": {
+      "book": {
+        "x": 18.881000518798828,
+        "y": 258.0431213378906,
+        "width": 551.238037109375,
+        "height": 356.3605651855469,
+        "top": 258.0431213378906,
+        "right": 570.1190376281738,
+        "bottom": 614.4036865234375,
+        "left": 18.881000518798828
+      },
+      "controls": {
+        "x": 24,
+        "y": 638.921875,
+        "width": 541,
+        "height": 42,
+        "top": 638.921875,
+        "right": 565,
+        "bottom": 680.921875,
+        "left": 24
+      },
+      "horizontalOverflow": false
+    },
+    "errors": []
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "pages": 42,
+    "contentPreserved": true,
+    "overflows": [],
+    "layout": {
+      "book": {
+        "x": 21,
+        "y": 165.875,
+        "width": 348,
+        "height": 480.234375,
+        "top": 165.875,
+        "right": 369,
+        "bottom": 646.109375,
+        "left": 21
+      },
+      "controls": {
+        "x": 16,
+        "y": 676.109375,
+        "width": 358,
+        "height": 60,
+        "top": 676.109375,
+        "right": 374,
+        "bottom": 736.109375,
+        "left": 16
+      },
+      "horizontalOverflow": false
+    },
+    "errors": []
+  },
+  {
+    "viewport": {
+      "width": 360,
+      "height": 640
+    },
+    "pages": 48,
+    "contentPreserved": true,
+    "overflows": [],
+    "layout": {
+      "book": {
+        "x": 21,
+        "y": 86.5,
+        "width": 318,
+        "height": 435,
+        "top": 86.5,
+        "right": 339,
+        "bottom": 521.5,
+        "left": 21
+      },
+      "controls": {
+        "x": 16,
+        "y": 551.5,
+        "width": 328,
+        "height": 60,
+        "top": 551.5,
+        "right": 344,
+        "bottom": 611.5,
+        "left": 16
+      },
+      "horizontalOverflow": false
+    },
+    "errors": []
+  },
+  {
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "pages": 100,
+    "contentPreserved": true,
+    "overflows": [],
+    "layout": {
+      "book": {
+        "x": 19.106143951416016,
+        "y": 84.84915924072266,
+        "width": 805.7877197265625,
+        "height": 194.73373413085938,
+        "top": 84.84915924072266,
+        "right": 824.8938636779785,
+        "bottom": 279.58289337158203,
+        "left": 19.106143951416016
+      },
+      "controls": {
+        "x": 24,
+        "y": 304.5,
+        "width": 796,
+        "height": 55,
+        "top": 304.5,
+        "right": 820,
+        "bottom": 359.5,
+        "left": 24
+      },
+      "horizontalOverflow": false
+    },
+    "errors": []
+  },
+  {
+    "viewport": {
+      "width": 2560,
+      "height": 1080
+    },
+    "pages": 42,
+    "contentPreserved": true,
+    "overflows": [],
+    "layout": {
+      "book": {
+        "x": 721.3772583007812,
+        "y": 252.7244110107422,
+        "width": 1117.245361328125,
+        "height": 569.2427368164062,
+        "top": 252.7244110107422,
+        "right": 1838.6226196289062,
+        "bottom": 821.9671478271484,
+        "left": 721.3772583007812
+      },
+      "controls": {
+        "x": 725,
+        "y": 850.5,
+        "width": 1110,
+        "height": 55,
+        "top": 850.5,
+        "right": 1835,
+        "bottom": 905.5,
+        "left": 725
+      },
+      "horizontalOverflow": false
+    },
+    "errors": []
+  }
+]

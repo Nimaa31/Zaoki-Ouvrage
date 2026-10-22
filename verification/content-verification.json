@@ -1,0 +1,134 @@
+[
+  {
+    "viewport": {
+      "width": 1366,
+      "height": 768
+    },
+    "pages": 22,
+    "textUnchanged": true,
+    "layout": {
+      "w": 1366,
+      "h": 768,
+      "doc": 1366,
+      "book": {
+        "x": 124.63943481445312,
+        "y": 113.91281127929688,
+        "width": 1116.72119140625,
+        "height": 528.3543701171875,
+        "top": 113.91281127929688,
+        "right": 1241.3606262207031,
+        "bottom": 642.2671813964844,
+        "left": 124.63943481445312
+      },
+      "controls": {
+        "x": 128,
+        "y": 673,
+        "width": 1110,
+        "height": 55,
+        "top": 673,
+        "right": 1238,
+        "bottom": 728,
+        "left": 128
+      }
+    }
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "pages": 22,
+    "textUnchanged": true,
+    "layout": {
+      "w": 390,
+      "h": 844,
+      "doc": 390,
+      "book": {
+        "x": 21,
+        "y": 85,
+        "width": 348,
+        "height": 649,
+        "top": 85,
+        "right": 369,
+        "bottom": 734,
+        "left": 21
+      },
+      "controls": {
+        "x": 16,
+        "y": 757,
+        "width": 358,
+        "height": 60,
+        "top": 757,
+        "right": 374,
+        "bottom": 817,
+        "left": 16
+      }
+    }
+  },
+  {
+    "viewport": {
+      "width": 360,
+      "height": 640
+    },
+    "pages": 22,
+    "textUnchanged": true,
+    "layout": {
+      "w": 360,
+      "h": 640,
+      "doc": 360,
+      "book": {
+        "x": 21,
+        "y": 85,
+        "width": 318,
+        "height": 445,
+        "top": 85,
+        "right": 339,
+        "bottom": 530,
+        "left": 21
+      },
+      "controls": {
+        "x": 16,
+        "y": 553,
+        "width": 328,
+        "height": 60,
+        "top": 553,
+        "right": 344,
+        "bottom": 613,
+        "left": 16
+      }
+    }
+  },
+  {
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "pages": 22,
+    "textUnchanged": true,
+    "layout": {
+      "w": 844,
+      "h": 390,
+      "doc": 844,
+      "book": {
+        "x": 157,
+        "y": 57,
+        "width": 530,
+        "height": 235,
+        "top": 57,
+        "right": 687,
+        "bottom": 292,
+        "left": 157
+      },
+      "controls": {
+        "x": 152,
+        "y": 306,
+        "width": 540,
+        "height": 52,
+        "top": 306,
+        "right": 692,
+        "bottom": 358,
+        "left": 152
+      }
+    }
+  }
+]

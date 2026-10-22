@@ -1,0 +1,112 @@
+[
+  {
+    "name": "desktop",
+    "contact": {
+      "maxError": 1.2715538963571249e-13,
+      "collisions": 0,
+      "pixelRatio": 1,
+      "triangles": 28646
+    },
+    "layout": {
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "book": {
+        "x": 160.79452514648438,
+        "y": 114.87919616699219,
+        "width": 1118.410888671875,
+        "height": 660.2066650390625,
+        "top": 114.87919616699219,
+        "right": 1279.2054138183594,
+        "bottom": 775.0858612060547,
+        "left": 160.79452514648438
+      },
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/assets/muuki.png",
+          "loaded": true
+        }
+      ]
+    },
+    "errors": []
+  },
+  {
+    "name": "mobile",
+    "contact": {
+      "maxError": 1.1730681834691165e-13,
+      "collisions": 0,
+      "pixelRatio": 1.25,
+      "triangles": 28646
+    },
+    "layout": {
+      "documentWidth": 390,
+      "viewport": 390,
+      "book": {
+        "x": 21,
+        "y": 85,
+        "width": 348,
+        "height": 649,
+        "top": 85,
+        "right": 369,
+        "bottom": 734,
+        "left": 21
+      },
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/assets/muuki.png",
+          "loaded": true
+        }
+      ]
+    },
+    "errors": []
+  },
+  {
+    "name": "ultrawide",
+    "contact": {
+      "maxError": 1.2715538963571249e-13,
+      "collisions": 0,
+      "pixelRatio": 1,
+      "triangles": 28646
+    },
+    "layout": {
+      "documentWidth": 2560,
+      "viewport": 2560,
+      "book": {
+        "x": 649.548583984375,
+        "y": 161.18820190429688,
+        "width": 1260.90283203125,
+        "height": 759.1881103515625,
+        "top": 161.18820190429688,
+        "right": 1910.451416015625,
+        "bottom": 920.3763122558594,
+        "left": 649.548583984375
+      },
+      "images": [
+        {
+          "src": "http://127.0.0.1:4173/assets/muuki.png",
+          "loaded": true
+        }
+      ]
+    },
+    "errors": []
+  },
+  {
+    "mode": "missing-model",
+    "passed": true
+  },
+  {
+    "mode": "no-webgl",
+    "passed": true
+  },
+  {
+    "mode": "reduced-motion",
+    "passed": true
+  },
+  {
+    "mode": "instant-click",
+    "passed": true
+  },
+  {
+    "mode": "missing-module",
+    "passed": true
+  }
+]

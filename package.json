@@ -1,0 +1,12 @@
+{
+  "name": "zaoki-manuscrit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "L’Ouvrage du Genjutsu de Zaoki — manuscrit interactif",
+  "scripts": {
+    "dev": "node tools/serve.cjs",
+    "start": "node tools/serve.cjs",
+    "build": "node tools/build.cjs",
+    "check": "node --check js/manuscript.js && node --check js/boneHand.js && node --check js/bookScene.js && node --check js/genjutsuAura.js && node --check content/book.js"
+  }
+}

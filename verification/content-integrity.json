@@ -1,0 +1,44 @@
+{
+  "source": "zaoki_astra6_rebuild_pack/reference_current_site/index.html",
+  "sourceSha256": "a30dbd61112794381e0f52d43a848523af4b6daaba2af262407c73a08a5a7421",
+  "spreads": 11,
+  "pages": 22,
+  "contentPreserved": true,
+  "files": [
+    {
+      "name": "content/book.js",
+      "bytes": 16711,
+      "sha256": "2a563a634eda1b790ced3079d6b18d47c761f9b6cf8317ec625932bdfc2ef33b"
+    },
+    {
+      "name": "assets/muuki.png",
+      "bytes": 2661039,
+      "sha256": "3956a9192c47926bfd443d5b9696374ec42c103804c03da778445ed3aa3deb65"
+    },
+    {
+      "name": "assets/meiro.png",
+      "bytes": 2036279,
+      "sha256": "152ffe5adf23c01ca2fdd2be0e9895b3a37b3b0f66e29d62f728600d3c6c29a0"
+    },
+    {
+      "name": "assets/yuji.png",
+      "bytes": 2130967,
+      "sha256": "446b5c893e947121544eb1c6bb444f1598695c649575d6565e4619c3abe229eb"
+    },
+    {
+      "name": "assets/yuugetsu.png",
+      "bytes": 2593971,
+      "sha256": "1574ccff70025c7df62ff9bde2e194ea1f9007ce81ac38964d6d599376f889dc"
+    },
+    {
+      "name": "assets/models/bone_hand.glb",
+      "bytes": 2165464,
+      "sha256": "af38c4a7aa77397d0fc7c5dcda51b40566fda74d96f0360fb3c563733ab4675c"
+    },
+    {
+      "name": "sources/bone_hand.blend",
+      "bytes": 3064483,
+      "sha256": "ec1089164b204ff4825b8476ae5976eb2ed5cce39e7b5b5c67c458af4b244631"
+    }
+  ]
+}

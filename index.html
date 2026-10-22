@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#170c0c">
+  <meta name="description" content="L’Ouvrage du Genjutsu de Zaoki Suza Kaguya. Un manuscrit de rencontres, d’émotions et d’illusions.">
+  <title>L’Ouvrage du Genjutsu de Zaoki</title>
+  <link rel="icon" href="assets/decor/sigil.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles/manuscript.css">
+  <link rel="stylesheet" href="js/boneHand.css">
+  <link rel="preload" href="assets/models/bone_hand.glb" as="fetch" crossorigin>
+  <script defer src="content/book.js"></script>
+  <script defer src="js/manuscript.js"></script>
+  <script type="module" src="js/boneHand.js"></script>
+  <script type="module" src="js/bookScene.js"></script>
+</head>
+<body class="is-closed">
+  <div class="room" aria-hidden="true"></div>
+  <div class="dust" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="intro" id="intro" aria-label="Couverture fermée de l’ouvrage">
+    <div class="closed-book-stage">
+      <div class="closed-book" id="closedBook" role="button" tabindex="0" aria-label="Ouvrir l’ouvrage de Zaoki">
+        <div class="book-back"></div>
+        <div class="page-block"></div>
+        <div class="front-cover">
+          <span class="corner tl" aria-hidden="true"></span><span class="corner tr" aria-hidden="true"></span>
+          <span class="corner bl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
+          <div class="cover-content">
+            <div class="cover-small">Manuscrit personnel</div>
+            <div class="cover-bone" aria-hidden="true"><span>骨</span></div>
+            <div class="cover-mark" aria-hidden="true">❖</div>
+            <h1>L’Ouvrage du <em>Genjutsu</em><span>de Zaoki</span></h1>
+            <div class="cover-rule" aria-hidden="true">◆</div>
+            <div class="cover-author">Zaoki Suza Kaguya</div>
+          </div>
+        </div>
+        <span class="cover-ribbon" aria-hidden="true"></span>
+        <div class="click-hint">Ouvrir l’ouvrage <span aria-hidden="true">↗</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="reader" inert>
+    <header class="masthead">
+      <a class="brand" href="#" id="titleLink" aria-label="Revenir à la page de titre">
+        <span class="brand-seal" aria-hidden="true">幻</span>
+        <span>L’Ouvrage du<strong>Genjutsu de Zaoki</strong></span>
+      </a>
+      <nav class="chapter-nav" aria-label="Navigation de l’ouvrage">
+        <button data-spread="0">Préface</button>
+        <button data-spread="1">Zaoki</button>
+        <button data-spread="2">Les rencontres</button>
+      </nav>
+      <button class="index-trigger" id="tocBtn" aria-haspopup="dialog"><span>Sommaire</span><span class="index-glyph" aria-hidden="true">☰</span></button>
+    </header>
+
+    <div class="reading-stage">
+    <main class="reading-room">
+      <div class="margin-note" aria-hidden="true"><span>巻</span><i></i><span>Des émotions<br>aux illusions</span><i></i><span>Zaoki Suza Kaguya</span></div>
+      <div class="book-shell" id="bookShell">
+        <span class="corner tl" aria-hidden="true"></span><span class="corner tr" aria-hidden="true"></span>
+        <span class="corner bl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
+        <div class="book" id="book">
+          <section class="page left" id="leftPage" aria-label="Page de gauche">
+            <div class="running-title" aria-hidden="true">L’Ouvrage du Genjutsu</div>
+            <div class="content" id="leftContent"></div>
+            <div class="folio" id="leftFolio"></div>
+          </section>
+          <section class="page right" id="rightPage" aria-label="Page de droite">
+            <div class="running-title" aria-hidden="true">Zaoki Suza Kaguya</div>
+            <div class="content" id="rightContent"></div>
+            <div class="folio" id="rightFolio"></div>
+          </section>
+          <button class="page-edge previous" id="leftEdge" aria-label="Page précédente"></button>
+          <button class="page-edge following" id="rightEdge" aria-label="Page suivante"></button>
+        </div>
+        <div class="binding" aria-hidden="true"><span class="binding-seal">幻</span></div>
+        <button class="bookmark" id="ribbonToc" aria-label="Ouvrir le sommaire"><span>目<br>録</span></button>
+      </div>
+      <nav class="chapter-rail" aria-label="Les quatre rencontres">
+        <span class="rail-title">Rencontres</span>
+        <button data-spread="2" aria-label="Chapitre I : Muuki Raimei">I</button>
+        <button data-spread="4" aria-label="Chapitre II : Meiro Mugen">II</button>
+        <button data-spread="6" aria-label="Chapitre III : Yuji Uchiha">III</button>
+        <button data-spread="8" aria-label="Chapitre IV : Yuugetsu Hōzuki">IV</button>
+        <span aria-hidden="true">❖</span>
+      </nav>
+    </main>
+
+    <footer class="reading-controls">
+      <button class="turn-button" id="prevBtn" aria-label="Page précédente"><span aria-hidden="true">←</span> <span>Page précédente</span></button>
+      <div class="reading-position"><span id="chapterIndicator" aria-live="polite"></span><span class="folio-position" id="counter"></span><div class="progress-track"><i id="progressBar"></i></div></div>
+      <button class="turn-button" id="nextBtn" aria-label="Page suivante"><span>Page suivante</span> <span aria-hidden="true">→</span></button>
+    </footer>
+    </div>
+    <button class="close-book" id="closeBook">Refermer l’ouvrage</button>
+  </div>
+
+  <dialog class="contents-dialog" id="tocPanel" aria-labelledby="tocHeading">
+    <button class="close-dialog" id="closeToc" aria-label="Fermer le sommaire">×</button>
+    <div class="eyebrow">L’Ouvrage du Genjutsu</div>
+    <h2 id="tocHeading">Table des matières</h2>
+    <div class="dialog-ornament" aria-hidden="true">──── ◇ ────</div>
+    <nav id="tocLinks" aria-label="Table des matières"></nav>
+    <div class="dialog-signature">Zaoki Suza Kaguya</div>
+  </dialog>
+  <noscript><div class="no-script">Cet ouvrage nécessite JavaScript pour être feuilleté.</div></noscript>
+</body>
+</html>
